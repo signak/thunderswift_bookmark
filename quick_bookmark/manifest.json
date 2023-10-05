@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Bookmark",
+  "version": "0.0.0-dev-1",
+  "description": "add or replace bookmark current page url to fixed item. (for GrandBlue Fantasy playing)",
+  "icon": {
+    "16": "icons/icon16.png"
+  },
+  "permissions": [
+    "bookmarks"
+  ]
+}
