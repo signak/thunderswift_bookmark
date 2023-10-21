@@ -1,18 +1,18 @@
 # Thunderswift Bookmark - Chrome 拡張機能
 
-[![GitHub ライセンス](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/signak/thunderswift_bookmark/main/LICENSE)
-<!-- TODO: Add Web store URL -->
-<!-- [![Chrome ウェブストアのバージョン](https://img.shields.io/chrome-web-store/v/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/...) -->
-<!-- [![Chrome ウェブストアのダウンロード数](https://img.shields.io/chrome-web-store/d/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/...) -->
-
-<!-- TODO: Add Screenshot -->
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/signak/thunderswift_bookmark/blob/master/LICENSE)
+![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/lfoloedjefmpcdfmllnppimdejojllbf)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lfoloedjefmpcdfmllnppimdejojllbf)
+![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/lfoloedjefmpcdfmllnppimdejojllbf)
 
 ショートカットキーにより素早く簡単にURLの保存と呼び出しを行うための拡張機能です。
+
+![screenshot](https://github.com/signak/thunderswift_bookmark/assets/91105853/a1a51b16-acd8-4ed0-9d7e-04359884be2b)
 
 ## Language
 
 - 日本語 (このページ)
-- [English](https://raw.githubusercontent.com/signak/thunderswift_bookmark/main/readme.ja.md)
+- [English](https://github.com/signak/thunderswift_bookmark/blob/master/readme.md)
 
 ## 機能
 
@@ -36,11 +36,14 @@
 
 ## インストール
 
-<!-- TODO: 登録したらウェブストアのURL -->
-- 推奨： [chrome ウェブストア](https://chrome.google.com/webstore/category/extensions) からのインストール
-- もし手動でインストールする場合は package/thunderswift_bookmark をダウンロードし、任意の場所に配置して利用してください。
+- 推奨： [chrome ウェブストア](https://chrome.google.com/webstore/detail/thunderswift_bookmark/lfoloedjefmpcdfmllnppimdejojllbf) からのインストール
+- もし手動でインストールする場合はリポジトリをダウンロードし、 package ディレクトリを任意の場所に配置して利用してください。
 
 ## ライセンス
 
-[MIT ライセンス](https://raw.githubusercontent.com/signak/thunderswift_bookmark/main/LICENSE)
-[邦訳](https://raw.githubusercontent.com/signak/thunderswift_bookmark/main/LICENSE.ja)
+[MIT ライセンス](https://github.com/signak/thunderswift_bookmark/blob/master/LICENSE)
+[邦訳](https://github.com/signak/thunderswift_bookmark/blob/master/LICENSE.ja)
+
+## 支援
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K1QBWWG)
