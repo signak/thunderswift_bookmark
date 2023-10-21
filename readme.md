@@ -33,6 +33,7 @@ If there are many requests, we will consider modifying it, but the need for this
 
 - activeTab: Get the current URL and navigate to any site.
 - storage: Used to store URLs and your settings. (settings and URLs are stored to local storage.)
+- host: Access to all URLs is required to save the URL of the active tab in the user's operation and open that URL while viewing any site.
 
 ## Installation
 
