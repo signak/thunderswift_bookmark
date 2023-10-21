@@ -1,0 +1,126 @@
+{
+    "appName": {
+        "message": "Thunderswift Bookmark (Save/Load URL by Shortcut Key)",
+        "description": "The name of the application"
+    },
+    "appShortName": {
+        "message": "TsBM",
+        "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+    },
+    "appDescription": {
+        "message": "This extension assists to stock URLs and access quickly any one of them.",
+        "description": "The description of the application"
+    },
+    "optPageTitle": {
+        "message": "TsBM : Settings",
+        "description": "The title of option document."
+    },
+    "optFormTitle": {
+        "message": "Settings",
+        "description": "The title of option page."
+    },
+    "optFormInstruction": {
+        "message": "* To save a value in a text field, press EnterKey after you edit the text.",
+        "description": "Settings page operation instructions"
+    },
+    "optGeneralLabel": {
+        "message": "General",
+        "description": "The label of general options."
+    },
+    "optCurrentUrlLabel": {
+        "message": "Current URL (Quick Load Target)",
+        "description": "The label of current url input field."
+    },
+    "optShortcutKeyLabel": {
+        "message": "Shortcut Key",
+        "description": "The label of shortcut key input field."
+    },
+    "optShortcutKeyHint": {
+        "message": "Input 1 letter of the alphabet or number as shortcut key. (e.g. 'q', 'a', '1', etc...)",
+        "description": "The hint of shortcut key input field."
+    },
+    "optAvailableSiteLabel": {
+        "message": "Available Site URL",
+        "description": "The label of URL input field where this extension is available"
+    },
+    "optAvailableSiteHint": {
+        "message": "Enter URL where you want to use this extension. If not entered, it will be enabled for all sites. (e.g. 'http://www.google.com/', 'https://docs.flutter.dev/get-started/', etc...)",
+        "description": "The hint of URL input field where this extension is available"
+    },
+    "optStocksLabel": {
+        "message": "History Options",
+        "description": "The label of history options"
+    },
+    "optStocksEnabledLabel": {
+        "message": "Use history of saved URLs.",
+        "description": "The label of history enabled status checkbox."
+    },
+    "optStocksCapacityLabel": {
+        "message": "Capacity of Histories",
+        "description": "The label of history capacity."
+    },
+    "optStocksCapacitySaveButton": {
+        "message": "Save",
+        "description": "The label of history capacity save button."
+    },
+    "optStocksCapacityHint": {
+        "message": "Input a number as capacity of histories. (Recommended: 10 or less)",
+        "description": "The hint of history capacity."
+    },
+    "optApplyButtonText": {
+        "message": "Apply Settings",
+        "description": "The text of apply button."
+    },
+    "optSaveCompletionDialogTitle": {
+        "message": "Save Settings",
+        "description": "The title of save completion dialog"
+    },
+    "optSaveCompletionDialogMessage": {
+        "message": "Settings have been saved.",
+        "description": "The message of save completion dialog"
+    },
+    "optResetButtonText": {
+        "message": "Load Defaults",
+        "description": "The text of reset button."
+    },
+    "optResetConfirmationDialogTitle": {
+        "message": "Load Defaults",
+        "description": "The title of reset confirmation dialog"
+    },
+    "optResetConfirmationDialogMessage": {
+        "message": "Are you sure you want to load defaults?  when chose ok, initialize all settings (URLs will be deleted, including history). ",
+        "description": "The message of reset confirmation dialog"
+    },
+    "optResetCompletionDialogTitle": {
+        "message": "Load Defaults",
+        "description": "The title of reset dialog"
+    },
+    "optResetCompletionDialogMessage": {
+        "message": "Settings have been restored to their default values.",
+        "description": "The message of reset dialog"
+    },
+    "optAvailableSiteUpdatedMessage": {
+        "message": "Updated: Available Site URL",
+        "description": "The message when the available site url is updated"
+    },
+    "optShortcutKeyUpdatedMessage": {
+        "message": "Updated: Shortcut Key",
+        "description": "The message when the shortcut key is updated"
+    },
+    "optCurrentUrlUpdatedMessage": {
+        "message": "Updated: Current URL",
+        "description": "The message when the current URL is updated"
+    },
+    "optStocksEnabledUpdatedMessage": {
+        "message": "Updated: History enabled status",
+        "description": "The message when the history enabled status is updated"
+    },
+    "optStocksCapacityUpdatedMessage": {
+        "message": "Updated: Capacity of Histories",
+        "description": "The message when the capacity of histories is updated"
+    },
+    "optStockItemTitleUpdatedMessage": {
+        "message": "Updated: Name of historical record.",
+        "description": "The message when the name of historical record is updated"
+    }
+}
