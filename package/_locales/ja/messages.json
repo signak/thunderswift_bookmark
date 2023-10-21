@@ -1,0 +1,126 @@
+{
+    "appName": {
+        "message": "Thunderswift Bookmark (Save/Load URL by Shortcut Key)",
+        "description": "拡張機能名"
+    },
+    "appShortName": {
+        "message": "TsBM",
+        "description": "拡張機能の短縮名 (12文字以下)"
+    },
+    "appDescription": {
+        "message": "ショートカットキーにより素早く簡単にURLの保存と呼び出しを行うための拡張機能です。",
+        "description": "拡張機能の説明"
+    },
+    "optPageTitle": {
+        "message": "TsBM : 設定",
+        "description": "設定ページのドキュメントタイトル"
+    },
+    "optFormTitle": {
+        "message": "設定",
+        "description": "設定ページのタイトル"
+    },
+    "optFormInstruction": {
+        "message": "※ テキスト入力する項目は、入力後にEnterキーを押すと値が保存されます。",
+        "description": "設定ページの操作説明"
+    },
+    "optGeneralLabel": {
+        "message": "全般",
+        "description": "全般設定のラベル."
+    },
+    "optCurrentUrlLabel": {
+        "message": "設定中のURL (QuickLoad対象)",
+        "description": "設定中URLの表示欄ラベル"
+    },
+    "optShortcutKeyLabel": {
+        "message": "ショートカットキー",
+        "description": "ショートカットキーの設定欄ラベル"
+    },
+    "optShortcutKeyHint": {
+        "message": "ショートカットキーに設定するキーを小文字のアルファベットか数字の1文字で入力してください。 (例: 'q', 'a', '1', など)",
+        "description": "ショートカットキーの設定ヒント"
+    },
+    "optAvailableSiteLabel": {
+        "message": "有効化するサイトのURL",
+        "description": "有効化するサイトURLの設定欄ラベル"
+    },
+    "optAvailableSiteHint": {
+        "message": "拡張機能を有効にするサイトのURLを入力してください。空欄にした場合は全てのサイトで有効になります。(例: 'https://www.google.com/', 'https://docs.flutter.dev/get-started/', など)",
+        "description": "有効化するサイトURLの設定ヒント"
+    },
+    "optStocksLabel": {
+        "message": "履歴オプション",
+        "description": "The label of history options"
+    },
+    "optStocksEnabledLabel": {
+        "message": "保存したURLを履歴として残す",
+        "description": "The label of history enabled status checkbox."
+    },
+    "optStocksCapacityLabel": {
+        "message": "URL履歴の最大件数",
+        "description": "The label of history capacity."
+    },
+    "optStocksCapacitySaveButton": {
+        "message": "保存",
+        "description": "The label of history capacity save button."
+    },
+    "optStocksCapacityHint": {
+        "message": "保持しておくURL履歴の最大件数を半角数字で入力してください。（推奨: 10件未満）",
+        "description": "The hint of history capacity."
+    },
+    "optApplyButtonText": {
+        "message": "設定内容を保存する",
+        "description": "設定内容を保存(適用)するボタンのテキスト"
+    },
+    "optSaveCompletionDialogTitle": {
+        "message": "設定保存",
+        "description": "設定内容の保存完了ダイアログタイトル"
+    },
+    "optSaveCompletionDialogMessage": {
+        "message": "設定内容が保存されました。",
+        "description": "設定内容の保存完了メッセージ"
+    },
+    "optResetButtonText": {
+        "message": "初期状態に戻す",
+        "description": "設定内容を初期化するボタンのテキスト"
+    },
+    "optResetConfirmationDialogTitle": {
+        "message": "初期化",
+        "description": "設定内容を初期化する際の確認ダイアログタイトル"
+    },
+    "optResetConfirmationDialogMessage": {
+        "message": "設定を初期化して初期状態に戻します（URLは履歴も含めて削除されます）。初期化を実行してもよろしいですか？",
+        "description": "設定内容を初期化する際の確認メッセージ"
+    },
+    "optResetCompletionDialogTitle": {
+        "message": "初期化",
+        "description": "設定内容の初期化完了ダイアログタイトル"
+    },
+    "optResetCompletionDialogMessage": {
+        "message": "設定内容は初期化されました。",
+        "description": "設定内容の初期化完了メッセージ"
+    },
+    "optAvailableSiteUpdatedMessage": {
+        "message": "有効化するサイトのURLを更新しました。",
+        "description": "有効化するサイトのURLの更新が完了した際に表示するメッセージ"
+    },
+    "optShortcutKeyUpdatedMessage": {
+        "message": "ショートカットキーを更新しました。",
+        "description": "ショートカットキーの更新が完了した際に表示するメッセージ"
+    },
+    "optCurrentUrlUpdatedMessage": {
+        "message": "呼び出し対象のURLを変更しました。",
+        "description": "履歴から呼び出し対象を変更した際に表示するメッセージ"
+    },
+    "optStocksEnabledUpdatedMessage": {
+        "message": "履歴機能の有効化設定を変更しました。",
+        "description": "履歴機能の有効化設定を変更した際に表示するメッセージ"
+    },
+    "optStocksCapacityUpdatedMessage": {
+        "message": "URL履歴の最大件数を更新しました。",
+        "description": "URL履歴の最大件数の更新が完了した際に表示するメッセージ"
+    },
+    "optStockItemTitleUpdatedMessage": {
+        "message": "履歴データの名称を更新しました。",
+        "description": "履歴データの名称更新が完了した際に表示するメッセージ"
+    }
+}

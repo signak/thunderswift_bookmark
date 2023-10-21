@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title></title>
+  <link rel="stylesheet" href="./spectre.min.css">
+  <link rel="stylesheet" href="./snackbar.css">
+  <link rel="stylesheet" href="./options.css">
+</head>
+
+<body>
+  <div id="app" class="docs-content">
+    <form id="options">
+      <button type="submit" style="display: none;" id="submit-button">HIDDEN_SUBMIT_BUTTON</button>
+    </form>
+  </div>
+  <div id="loading" class="wrapper"><span>Loading...</span></div>
+  <div id="snackbar">Some text some message..</div>
+  <script src="options.js"></script>
+</body>
+
+<template id="general-template">
+  <h1 id="formTitle"><!-- Options --></h1>
+  <p id="formInstruction"><!-- how to save settings --></p>
+
+  <div class="divider"></div>
+
+  <div id="opt-general">
+    <h2 id="opt-general:label"><!-- General --></h2>
+    <div class="form-group">
+      <label class="form-label" for="url:current" id="url:current:label"><!-- Current Quick URL. (readonly) --></label>
+      <div id="url:current" class="text-small url-text current-url-box"><!-- https://example.cooooooooom/ --></div>
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="opt:key" id="opt:key:label"><!-- Shortcut Key --></label>
+      <input type="text" pattern="^[a-z0-9]{1}$" maxlength="1" class="form-input" id="opt:key" name="opt:key"
+        placeholder="Shortcut Key">
+      <p class="form-input-hint" id="opt:key:hint">
+        <!-- Input 1 letter of the alphabet as shortcut key. (e.g. 'q', 'a', 'w', etc...) -->
+      </p>
+    </div>
+
+    <div class="form-group">
+      <label class="form-label" for="opt:site" id="opt:site:label"><!-- Available Site URL --></label>
+      <input type="url" class="form-input" id="opt:site" name="opt:site" placeholder="Available Site">
+      <p class="form-input-hint" id="opt:site:hint">
+        <!-- Enter URL where you want to use this extension. If not entered, it will be enabled for all sites. (e.g. http://www.google.com/ ) -->
+      </p>
+    </div>
+  </div>
+</template>
+
+<template id="stocks-template">
+  <div class="divider"></div>
+
+  <div id="opt-stocks">
+    <h2 id="opt-stocks:label"><!-- Stocks --></h2>
+    <div class="form-group">
+      <label class="form-switch" for="opt:stocks:enabled">
+        <input type="checkbox" id="opt:stocks:enabled" name="opt:stocks:enabled">
+        <i class="form-icon"></i><span id="opt:stocks:enabled:label"><!-- use stocks. --></span>
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="opt:stocks:capacity"
+        id="opt:stocks:capacity:label"><!-- capacity of stocks. --></label>
+        <div class="input-group">
+          <input type="number" pattern="^[0-9]+$" class="form-input"
+            inputmode="numeric" id="opt:stocks:capacity"
+            name="opt:stocks:capacity" placeholder="Capacity of Stocks.">
+          <button id="opt-stocks-capacity-save-button" class="btn btn-primary input-group-btn"><!-- Save Capacity Button -->></button>
+      </div>
+      <p class="form-input-hint" id="opt:stocks:capacity:hint"><!-- input a number as capacity of stocks. --></p>
+    </div>
+    <div id="opt-stock-urls" class="form-group">
+      <h3>Stock URLs</h3>
+      <div id="opt-stock-urls"></div>
+    </div>
+  </div>
+</template>
+
+<template id="stock-card">
+  <div class="card stock-item">
+    <div class="card-title h5">
+      <div class="input-group">
+        <label class="form-radio">
+          <input type="radio" id="url:stocks" name="url:stocks" class="stock-select-button" value="none">
+          <i class="form-icon"></i>
+        </label>
+        <input type="text" id="url:stocks:name" name="url:stocks:name" class="form-input stock-title-text "
+          placeholder="edit name and press enter key.">
+      </div>
+    </div>
+    <div class="card-body">
+      <div id="url:stocks:url" class="text-small url-text"><!-- https://example.cooooooooom/ --></div>
+    </div>
+  </div>
+</template>
+
+<template id="footer-template">
+  <div class="divider"></div>
+  <div id="footer btn-group btn-group-block">
+    <div id="reset" name="reset" class="btn text-dark bg-gray p-centered"><!-- Reset Button --></div>
+  </div>
+</template>
+
+<template id="modal-dialog-template">
+  <div class="modal" id="modal-dialog">
+    <a href="#close" class="modal-overlay" id="modal-dialog-barrier" aria-label="Close"></a>
+    <div class="modal-container">
+      <div class="modal-header">
+        <a href="#close" class="btn btn-clear float-right" id="modal-dialog-x-button" aria-label="Close"></a>
+        <div class="modal-title h5" id="modal-dialog-title"><!-- Modal title --></div>
+      </div>
+      <div class="modal-body">
+        <div class="content" id="modal-dialog-content">
+          <!-- modal-dialog-content -->
+        </div>
+      </div>
+      <div class="modal-footer btn-group btn-group-block">
+        <button type="button" class="btn text-dark bg-gray" id="modal-dialog-cancel-button">Cancel</button>
+        <button type="button" class="btn btn-primary" id="modal-dialog-apply-button">OK</button>
+      </div>
+    </div>
+  </div>
+</template>
+
+</html>
