@@ -1,18 +1,18 @@
 # Thunderswift Bookmark - Chrome Extension
 
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/signak/thunderswift_bookmark/main/LICENSE)
-<!-- TODO: Add Web store URL -->
-<!-- [![Chrome Web Store version](https://img.shields.io/chrome-web-store/v/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/...) -->
-<!-- [![Chrome Web Store Downloads](https://img.shields.io/chrome-web-store/d/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/...) -->
-
-<!-- TODO: Add Screenshot -->
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/signak/thunderswift_bookmark/blob/master/LICENSE)
+![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/lfoloedjefmpcdfmllnppimdejojllbf)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lfoloedjefmpcdfmllnppimdejojllbf)
+![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/lfoloedjefmpcdfmllnppimdejojllbf)
 
 ## Language
 
-- [Japanese](https://raw.githubusercontent.com/signak/thunderswift_bookmark/main/readme.ja.md)
+- [Japanese](https://github.com/signak/thunderswift_bookmark/blob/master/readme.ja.md)
 - English (This page.)
 
 This extension assists to stock URLs and access quickly any one of them.
+
+![screenshot](https://github.com/signak/thunderswift_bookmark/assets/91105853/a1a51b16-acd8-4ed0-9d7e-04359884be2b)
 
 ## Features
 
@@ -36,10 +36,13 @@ If there are many requests, we will consider modifying it, but the need for this
 
 ## Installation
 
-<!-- TODO: URL of the web store when you register -->
-- Recommended: install from [chrome web store](https://chrome.google.com/webstore/category/extensions)
-- If you install manually, download 'package/thunderswift_bookmark' and place it anywhere you want to use it.
+- Recommended: install from [chrome web store](https://chrome.google.com/webstore/detail/thunderswift_bookmark/lfoloedjefmpcdfmllnppimdejojllbf)
+- If you want to install it manually, download this repository and place 'package' directory in your desired location.
 
 ## License
 
-[MIT License.](https://raw.githubusercontent.com/signak/thunderswift_bookmark/main/LICENSE)
+[MIT License.](https://github.com/signak/thunderswift_bookmark/blob/master/LICENSE)
+
+## Donation
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K1QBWWG)
