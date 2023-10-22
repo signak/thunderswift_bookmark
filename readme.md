@@ -24,11 +24,6 @@ This extension assists to stock URLs and access quickly any one of them.
 | History    | Use history of saved URLs (optional) |
 | Filtering  | URL setting for the url that will enable this extension (optional) |
 
-### Supplemental information about filter function
-
-The filter can only be set to one URL, but we do not intend to make it any more sophisticated than it is at this time.
-If there are many requests, we will consider modifying it, but the need for this extension itself seems to be low, since it satisfies a very specific demand.
-
 ## Permissions
 
 - activeTab: Get the current URL and navigate to any site.
