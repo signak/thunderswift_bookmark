@@ -1,9 +1,9 @@
 # Thunderswift Bookmark - Chrome 拡張機能
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/signak/thunderswift_bookmark/blob/master/LICENSE)
-<!-- ![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/lfoloedjefmpcdfmllnppimdejojllbf)
+![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/lfoloedjefmpcdfmllnppimdejojllbf)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lfoloedjefmpcdfmllnppimdejojllbf)
-![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/lfoloedjefmpcdfmllnppimdejojllbf) -->
+![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/lfoloedjefmpcdfmllnppimdejojllbf)
 
 ショートカットキーにより素早く簡単にURLの保存と呼び出しを行うための拡張機能です。
 
@@ -32,8 +32,7 @@
 
 ## インストール
 
-<!-- - 推奨： [chrome ウェブストア](https://chrome.google.com/webstore/detail/thunderswift_bookmark/lfoloedjefmpcdfmllnppimdejojllbf) からのインストール -->
-- 推奨： Chromeウェブストア からのインストール（申請中）
+- 推奨： [chrome ウェブストア](https://chrome.google.com/webstore/detail/thunderswift_bookmark/lfoloedjefmpcdfmllnppimdejojllbf) からのインストール
 - もし手動でインストールする場合はリポジトリをダウンロードし、 package ディレクトリを任意の場所に配置して利用してください。
 
 ## ライセンス

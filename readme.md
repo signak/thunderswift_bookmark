@@ -1,9 +1,9 @@
 # Thunderswift Bookmark - Chrome Extension
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/signak/thunderswift_bookmark/blob/master/LICENSE)
-<!-- ![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/lfoloedjefmpcdfmllnppimdejojllbf)
+![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/lfoloedjefmpcdfmllnppimdejojllbf)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lfoloedjefmpcdfmllnppimdejojllbf)
-![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/lfoloedjefmpcdfmllnppimdejojllbf) -->
+![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/lfoloedjefmpcdfmllnppimdejojllbf)
 
 ## Language
 
@@ -32,8 +32,7 @@ This extension assists to stock URLs and access quickly any one of them.
 
 ## Installation
 
-<!-- - Recommended: install from [chrome web store](https://chrome.google.com/webstore/detail/thunderswift_bookmark/lfoloedjefmpcdfmllnppimdejojllbf) -->
-- Recommended: install from chrome web store (Waiting for review)
+- Recommended: install from [chrome web store](https://chrome.google.com/webstore/detail/thunderswift_bookmark/lfoloedjefmpcdfmllnppimdejojllbf)
 - If you want to install it manually, download this repository and place 'package' directory in your desired location.
 
 ## License
