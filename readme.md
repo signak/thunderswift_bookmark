@@ -38,7 +38,7 @@ This extension assists to stock URLs and access quickly any one of them.
 
 ## License
 
-[MIT License.](https://github.com/signak/thunderswift_bookmark/blob/master/LICENSE)
+- [MIT License.](https://github.com/signak/thunderswift_bookmark/blob/master/LICENSE)
 
 ## Third Party Libraries
 
