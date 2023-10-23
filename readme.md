@@ -1,18 +1,18 @@
 # Thunderswift Bookmark - Chrome Extension
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/signak/thunderswift_bookmark/blob/master/LICENSE)
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/lfoloedjefmpcdfmllnppimdejojllbf)
+<!-- ![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/lfoloedjefmpcdfmllnppimdejojllbf)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lfoloedjefmpcdfmllnppimdejojllbf)
-![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/lfoloedjefmpcdfmllnppimdejojllbf)
+![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/lfoloedjefmpcdfmllnppimdejojllbf) -->
 
 ## Language
 
-- [Japanese](https://github.com/signak/thunderswift_bookmark/blob/master/readme.ja.md)
+- [Japanese](https://github.com/signak/thunderswift_bookmark/blob/master/docs/ja/readme.md)
 - English (This page.)
 
 This extension assists to stock URLs and access quickly any one of them.
 
-![screenshot](https://github.com/signak/thunderswift_bookmark/assets/91105853/a1a51b16-acd8-4ed0-9d7e-04359884be2b)
+![screenshot](docs/en/screenshot.png)
 
 ## Features
 
@@ -32,12 +32,17 @@ This extension assists to stock URLs and access quickly any one of them.
 
 ## Installation
 
-- Recommended: install from [chrome web store](https://chrome.google.com/webstore/detail/thunderswift_bookmark/lfoloedjefmpcdfmllnppimdejojllbf)
+<!-- - Recommended: install from [chrome web store](https://chrome.google.com/webstore/detail/thunderswift_bookmark/lfoloedjefmpcdfmllnppimdejojllbf) -->
+- Recommended: install from chrome web store (Waiting for review)
 - If you want to install it manually, download this repository and place 'package' directory in your desired location.
 
 ## License
 
 [MIT License.](https://github.com/signak/thunderswift_bookmark/blob/master/LICENSE)
+
+## Third Party Libraries
+
+- [SPECTRE.CSS](https://picturepan2.github.io/spectre/index.html) v0.5.9 | Licensed under the [MIT License](https://github.com/picturepan2/spectre/blob/master/LICENSE).
 
 ## Donation
 
